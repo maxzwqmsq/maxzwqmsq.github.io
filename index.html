@@ -36,7 +36,7 @@
 					    //返回真会采集当前页面的数据，返回假表示不采集当前页面,设置这个函数后，内容为空的话，是返回假的。不设置函数默认是采集所有页面
 					    collect_url: function(){
 					        //如果只采集首页
-					        if(location.href === 'maaixin.com/index.html' || location.href === 'maaixin.com/'){
+					        if(location.href === 'maaixin.com'){
 					            return true;
 					        }
 					    },
@@ -62,9 +62,7 @@
 			});
 			</script>
 			<script src="https://static.sensorsdata.cn/sdk/1.10.1/sensorsdata.min.js"></script>
-			<script>
-			sa.quick('autoTrack');
-		</script>
+			
 	</head>
 	<body class="landing">
 
@@ -215,7 +213,7 @@
 					</footer>
 
 			</div>
-
+			<script>sa.quick('autoTrack');</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
