@@ -52,11 +52,11 @@ var Component = __webpack_require__(9)(
   /* template */
   __webpack_require__(14),
   /* scopeId */
-  "data-v-5ce6faae",
+  "data-v-500777ba",
   /* cssModules */
   null
 )
-Component.options.__file = "D:\\vue-project\\zjkweb\\src\\app.vue"
+Component.options.__file = "D:\\vue-projects\\iview-project\\src\\app.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] app.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -67,9 +67,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5ce6faae", Component.options)
+    hotAPI.createRecord("data-v-500777ba", Component.options)
   } else {
-    hotAPI.reload("data-v-5ce6faae", Component.options)
+    hotAPI.reload("data-v-500777ba", Component.options)
   }
 })()}
 
@@ -229,7 +229,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-5ce6faae", module.exports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-500777ba", module.exports)
   }
 }
 
