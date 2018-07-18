@@ -3752,7 +3752,7 @@ html.ie .accordion .accordion-body {
 .owl-carousel.nav-style-1 .owl-nav .owl-prev,
 .owl-carousel.nav-style-1 .owl-nav .owl-next {
 	background: transparent;
-	color: #CCC;
+	color: #FFFFFF!important;
 	font-size: 22.4px;
 	font-size: 1.4rem;
 }
