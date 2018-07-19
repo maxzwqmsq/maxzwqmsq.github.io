@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
     <!-- Web Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900%7COpen+Sans:300,400,600,700,800%7CPermanent+Marker" rel="stylesheet" type="text/css">
+    
     <link rel="icon" type="image/png" sizes="16x16" href="http://pbuclgf1t.bkt.clouddn.com/images/favicon-16x16.png">
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -46,15 +47,15 @@
                 <div class="header-container">
                     <div class="header-row">
                         <div class="header-column justify-content-start">
-                            <div class="header-logo border-right-0 px-1">
+                            <div class="header-logo border-right-0 px-3">
                                 <a href="index.html">
 										<img alt="zte" width="300" height="50" data-change-src="http://pbuclgf1t.bkt.clouddn.com/images/logo-page.png" src="http://pbuclgf1t.bkt.clouddn.com/images/logo.png">
 									</a>
                             </div>
                         </div>
                         <div class="header-column justify-content-end">
-                            <div class="header-nav justify-content-lg-end ml-3">
-                                <div class="header-nav-main header-nav-main-uppercase header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                            <div class="header-nav justify-content-lg-end ml-0">
+                                <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                     <nav class="collapse">
                                         <ul class="nav flex-column flex-lg-row" id="mainNav">
                                             <li class="dropdown dropdown-mega">
@@ -65,12 +66,12 @@
                                             <li class="dropdown dropdown-mega dropdown-mega-style-2">
                                                 <a class="dropdown-item dropdown-toggle" href="javascript:location.href='about.html'">
                                                         关于我们
-                                                    </a>
+                                                </a>
                                             </li>
                                             <li class="dropdown">
                                                 <a class="dropdown-item dropdown-toggle" href="projects.html">
                                                         产品与方案
-                                                    </a>
+                                                </a>
                                             </li>
                                             <li class="dropdown">
                                                 <a class="dropdown-item dropdown-toggle" href="news.html">
@@ -113,6 +114,21 @@
                 'navigation' : {'arrows':{ 'enable': true, 'hide_under': 767, 'style': 'slider-arrows-style-1' }, 
                 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 35, 'h_offset': 35}}}">
                     <ul>
+                        <li class="slide-overlay-level-6" data-transition="fade">
+                                <img src="http://pbuclgf1t.bkt.clouddn.com/images/banner_01.png"  
+                                    alt=""
+                                    data-bgposition="center center" 
+                                    data-bgfit="cover" 
+                                    data-bgrepeat="no-repeat" 
+                                    data-kenburns="on" 
+                                    data-duration="20000" 
+                                    data-ease="Linear.easeNone" 
+                                    data-scalestart="110" 
+                                    data-scaleend="100" 
+                                    data-offsetstart="250 100" 
+                                    data-offsetend="-250 -150" 
+                                    class="rev-slidebg">
+                        </li>
                         <li class="slide-overlay-level-6" data-transition="fade">
                                 <img src="http://pbuclgf1t.bkt.clouddn.com/images/banner_02.png"  
                                     alt=""
@@ -181,14 +197,9 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="overflow-hidden mb-3">
-                                <h2 class="word-rotator letters type font-weight-bold text-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
-										<span>我们是</span> 
-										<span class="waiting" style="margin-left:-5px;">
-											<b class="is-visible">金融公司</b>
-											<b>科技公司</b>
-											<b>互联网公司</b>
-										</span>
-									</h2>
+                                <h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                    务实高效的企业级服务平台
+                                </h2>
                             </div>
                             <div class="overflow-hidden mb-3">
                                 <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">&emsp;&emsp;中兴金融科技有限公司是中兴通讯股份有限公司于2015年全资成立的高科技公司，是中兴通讯集团在金融行业业务板块的一个重要的战略布局，是整个中兴通讯集团面向金融行业的市场运作平台、创新技术孵化平台和合作生态建设平台。</p>
@@ -196,7 +207,7 @@
                         </div>
                         <div class="col-md-3"></div>
                         <div class="col-md-4">
-                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/gsms.png" width="300" height="200" class="img-fluid concept-pos-2 ml-6" alt="" />
+                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/gsms.png" width="600" height="500" class="img-fluid concept-pos-2 ml-6" alt="" />
                         </div>
                     </div>
                 </div>
@@ -204,11 +215,19 @@
             <section class="section bg-light-5 pt-4 pb-5">
                     <div class="container">
                         <div class="row mb-5">
-                            <div class="col">
-                                <div class="overflow-hidden mt-3">
+                                <div class="col-md-10 overflow-hidden mt-3">
                                     <h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">我们提供</h2>
                                 </div>
-                            </div>
+                                <div class="col-md-2 text-right overflow-hidden mt-3">
+                                    <div class="call-to-action-btn appear-animation" data-appear-animation="fadeInRightShorter">
+                                        <a href="projects.html" data-hash data-hash-offset="120" class=" ">
+                                            <span class="wrap">
+                                                <span class="font-weight-bold"></span>
+                                                <i class="fas fa-angle-double-right fa-2x"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                         </div>
                         <!-- 产品 -->
                         <div class="row align-items-baseline pt-2">
@@ -216,13 +235,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/fengk.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>实时交易风控</h4>
                                             </div>
-                                            <p class="mb-0">实时交易风控描述</p>
+                                            <p class="lead mb-0 text-left">利用大数据技术实时分析风险事件，实现对交易的全面监控，建立动态的反欺诈监控体系</p>
                                         </div>
                                     </div>
                                 </div>
@@ -231,13 +250,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/fengx.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>运营风险监控</h4>
                                             </div>
-                                            <p class="mb-0">运营风险监控描述</p>
+                                            <p class="lead mb-0 text-left">加强对金融风险的防御能力和监控范围，以构建“公共运营”+“专业运营”的大运营格局为目标</p>
                                         </div>
                                     </div>
                                 </div>
@@ -246,13 +265,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="vendor/linear-icons/select.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/select.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>用户行为分析</h4>
                                             </div>
-                                            <p class="mb-0">用户行为分析描述</p>
+                                            <p class="lead mb-0 text-left">国内领先的智能数据分析平台，目标是对用户在移动APP、微信含小程序、网站等各场景上的用户行为</p>
                                         </div>
                                     </div>
                                 </div>
@@ -263,13 +282,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/bigdata.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>大数据SQL查询服务系统</h4>
                                             </div>
-                                            <p class="mb-0">大数据SQL查询服务系统描述</p>
+                                            <p class="lead mb-0 text-left">先进的分布式架构设计，针对多种大数据和关系型数据库组件支持标准的ANIS SQL语法查询</p>
                                         </div>
                                     </div>
                                 </div>
@@ -278,13 +297,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/shengj.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>大数据审计系统</h4>
                                             </div>
-                                            <p class="mb-0">大数据审计系统描述</p>
+                                            <p class="lead mb-0 text-left">提供强大是的数据采集加工引擎，支持多种数据类型的采集，实现异构数据资源整合</p>
                                         </div>
                                     </div>
                                 </div>
@@ -293,13 +312,13 @@
                                 <div class="icon-box-animation-1">
                                     <div class="icon-box icon-box-style-6" onclick="window.location.href='projects-check.html'" style="cursor:pointer">
                                         <div class="icon-box-icon">
-                                            <img width="42" height="42" src="vendor/linear-icons/magnifier.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
+                                            <img width="42" height="42" src="http://pbuclgf1t.bkt.clouddn.com/images/history.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
                                         </div>
                                         <div class="icon-box-info">
                                             <div class="icon-box-info-title">
                                                 <h4>历史数据查询系统</h4>
                                             </div>
-                                            <p class="mb-0">历史数据查询系统描述</p>
+                                            <p class="lead mb-0 text-left">基于Hadoop分布式计算存储技术，结合先进的行业历史数据存储方案，对历史数据进行深度整合、快速加工</p>
                                         </div>
                                     </div>
                                 </div>
@@ -312,7 +331,7 @@
                          <div class="col-sm-12 col-md-12 col-xl-4 text-center pr-xl-5 pb-5 py-md-5 py-xl-0 mb-5 mb-md-0 mx-auto">
                             <div class="overflow-hidden mt-4 mb-4 pb-2">
                                 <p class="text-3 px-xl-5 mb-0 appear-animation text-color-light" data-appear-animation="maskUp" data-appear-animation-delay="300">
-                                    我们是一个很专业的金融企业
+                                    服务全面可靠&emsp;助力企业成长
                                 </p>
                             </div>
                             <div class="owl-carousel nav-style-1 owl-theme m-0 mb-1 p-0 pb-1 text-center" data-plugin-options="{'loop': true, 'autoplay': true, 'nav': true, 'dots': false, 'autoplayHoverPause': true, 'margin': 40, 'responsive': { '0': {'items': 3}, '576': {'items': 3}, '768': {'items': 3}, '992': {'items': 3}, '1200': {'items': 3}}}">
@@ -348,9 +367,25 @@
             <section class="section bg-light-1 py-0">
                 <div class="container mb-5 pb-3 pt-3">
                      <div class="row mb-5">
-                            <div class="col">
-                                <div class="overflow-hidden mt-4">
-                                    <h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">新闻中心</h2>
+                            <div class="col-md-10 overflow-hidden mt-4">
+                                <h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">新闻中心</h2>
+                            </div>
+                            <div class="col-md-2 text-right overflow-hidden mt-3">
+                                <!-- <div class="call-to-action-btn appear-animation" data-appear-animation="fadeInRightShorter">
+                                    <a href="news.html" data-hash data-hash-offset="120" class="btn btn-outline btn-rounded btn-primary btn-4 btn-h-3 btn-icon-effect-1 font-weight-semibold">
+                                        <span class="wrap">
+                                            <span class="font-weight-bold">查看更多</span>
+                                            <i class="fas fa-angle-right"></i>
+                                        </span>
+                                    </a>
+                                </div> -->
+                                <div class="call-to-action-btn appear-animation" data-appear-animation="fadeInRightShorter">
+                                        <a href="news.html" data-hash data-hash-offset="120" class=" ">
+                                            <span class="wrap">
+                                                <span class="font-weight-bold"></span>
+                                                <i class="fas fa-angle-double-right fa-2x"></i>
+                                            </span>
+                                        </a>
                                 </div>
                             </div>
                         </div>
@@ -362,7 +397,7 @@
                                     <h3 class="font-weight-bold text-4 mb-1">中兴金融科技成功中标中信银行运营风险监控数据加工系统</h3>
                                     <p>
                                         <i class="far fa-clock mt-1 text-color-primary"></i>
-                                        <time class="font-tertiary text-1" datetime="2018-01-17">2018年7月17日</time>
+                                        <time class="text-1" datetime="2018-07-17">2018年7月17日</time>
                                     </p>
                                     <p>中兴金融科技成功中标中信银行运营风险监控数据加工系统，充分体现了中兴金融科技在数据处理技术、数据价值挖掘方面的雄厚技术实力。</p>
                                 </div>
@@ -375,7 +410,7 @@
                                     <h3 class="font-weight-bold text-4 mb-1">中兴金融科技承建中信银行历史数据查询平台建设</h3>
                                     <p>
                                         <i class="far fa-clock mt-1 text-color-primary"></i>
-                                        <time class="font-tertiary text-1" datetime="2018-01-17">2018年7月10日</time>
+                                        <time class="text-1" datetime="2018-07-10">2018年7月10日</time>
                                     </p>
                                     <p>随着金融科技的迅猛发展，银行机构的业务和服务不断创新，新技术、新方案的大量应用，使得传统技术架构的瓶颈不断被打破，为银行的经营发展提供新的动力。</p>
                                 </div>
@@ -388,7 +423,7 @@
                                     <h3 class="font-weight-bold text-4 mb-1">中兴金融科技承建营口银行云数据中心建设项目</h3>
                                     <p>
                                         <i class="far fa-clock mt-1 text-color-primary"></i>
-                                        <time class="font-tertiary text-1" datetime="2018-01-17">2017年10月8日</time>
+                                        <time class="text-1" datetime="2017-10-08">2017年10月8日</time>
                                     </p>
                                     <p>2017年10月，根据双方共同探索银行IT架构云化转型升级的战略合作意向，中兴金融科技与营口银行签订了《营口银行云数据中心建设项目》总包集成合同。</p>
                                 </div>
@@ -400,21 +435,24 @@
             <div class="section pt-5" style="background-color: #1A8CE6;">
                 <div class="container">
                     <div class="row align-items-center justify-content-center appear-animation" data-appear-animation="fadeInUpShorter">
-                        <div class="col-4 col-md-1-5 text-center text-md-left">
-                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/zx_bank.png" width="150" alt="" class="img-fluid">
+                        <div class="col-4 col-md-1-5 text-center text-md-left" style="cursor: pointer;">
+                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/zx_bank.png" 
+                            onclick="window.open('http://www.citicbank.com')" width="150" alt="" class="img-fluid">
                         </div>
-                        <div class="col-4 col-md-1-5 text-center">
-                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/yk_bank.png" width="140" alt="" class="img-fluid">
+                        <div class="col-4 col-md-1-5 text-center" style="cursor: pointer;">
+                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/yk_bank.png"
+                            onclick="window.open('http://www.bankofyk.com')" width="140" alt="" class="img-fluid">
                         </div>
-                        <div class="col-4 col-md-1-5 text-center">
-                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/ln_bank.png" width="150" alt="" class="img-fluid">
+                        <div class="col-4 col-md-1-5 text-center" style="cursor: pointer;">
+                            <img src="http://pbuclgf1t.bkt.clouddn.com/images/ln_bank.png"
+                            onclick="window.open('http://www.lnrcc.com')" width="150" alt="" class="img-fluid">
                         </div>
-                        <div class="col-4 col-md-1-5 text-center text-md-right mt-5 mt-md-0">
+                       <!--  <div class="col-4 col-md-1-5 text-center text-md-right mt-5 mt-md-0">
                             <img src="http://pbuclgf1t.bkt.clouddn.com/images/sj_bank.png" width="140" alt="" class="img-fluid">
                         </div>
                         <div class="col-4 col-md-1-5 text-center text-md-right mt-5 mt-md-0">
                             <img src="http://pbuclgf1t.bkt.clouddn.com/images/jz_bank.png" width="170" alt="" class="img-fluid">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -446,7 +484,7 @@
                             </li>
                             <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i>   <a href="projects.html">得到支持</a>
                             </li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i>   <a href="carrers.html">加入我们</a>
+                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i>   <a href="careers.html">加入我们</a>
                             </li>
                             <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i>   <a href="about.html">联系我们</a>
                             </li>
@@ -457,11 +495,11 @@
                         <h2 class="text-3 mb-3">最新消息</h2>
                         <div class="mb-3">
                             <p class="mb-1"><a href="page-fk.html" class="d-block"> 中兴金融科技成功中标中信银行运营风险监控数据加工系统</a></p>
-                            <a href="blog-single-post.html" class="text-color-light">2018年7月17日</a>
+                            <a class="text-color-light">2018年7月17日</a>
                         </div>
                         <div>
-                            <p class="mb-1"><a href="blog-single-post.html" class="d-block">中兴金融科技承建中信银行历史数据查询平台建设</a></p>
-                            <a href="page-ls.html" class="text-color-light">
+                            <p class="mb-1"><a href="page-ls.html" class="d-block">中兴金融科技承建中信银行历史数据查询平台建设</a></p>
+                            <a class="text-color-light">
                                 2018年7月10日
                             </a>
                         </div>
