@@ -65,15 +65,9 @@ Theme Version:	1.1.0
 (function(theme, $) {
 	$('#pages').click(function(e){
 		$('#toggleWays')[0].attributes['class'].nodeValue = "accordion-body collapse";
-		$('#togglePopularPosts')[0].attributes['class'].nodeValue = "accordion-body collapse";
 	})
 	$('#ways').click(function(e){
 		$('#togglePages')[0].attributes['class'].nodeValue = "accordion-body collapse";
-		$('#togglePopularPosts')[0].attributes['class'].nodeValue = "accordion-body collapse";
-	})
-	$('#popularPosts').click(function(e){
-		$('#togglePages')[0].attributes['class'].nodeValue = "accordion-body collapse";
-		$('#toggleWays')[0].attributes['class'].nodeValue = "accordion-body collapse";
 	})
 }).apply(this, [window.theme, jQuery]);
 
